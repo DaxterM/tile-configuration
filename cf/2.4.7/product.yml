@@ -313,6 +313,12 @@ resource-config:
     instance_type:
       id: ((cloud_controller_worker_instance_type))
     instances: ((cloud_controller_worker_instances))
+  consul_server:
+    instance_type:
+      id: ((consul_server_instance_type))
+    instances: ((consul_server_instances))
+    persistent_disk:
+      size_mb: ((consul_server_persistent_disk_size))
   credhub:
     instance_type:
       id: ((credhub_instance_type))
