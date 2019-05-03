@@ -144,6 +144,8 @@ product-properties:
     value: ((haproxy_ssl_ciphers))
   .properties.locket_database_max_open_connections:
     value: ((locket_database_max_open_connections))
+  .properties.log_cache_max_per_source:
+    value: ((log_cache_max_per_source))
   .properties.metric_registrar_blacklisted_tags:
     value: ((metric_registrar_blacklisted_tags))
   .properties.metric_registrar_enabled:
@@ -301,6 +303,8 @@ resource-config:
     instance_type:
       id: ((backup_restore_instance_type))
     instances: ((backup_restore_instances))
+    persistent_disk:
+      size_mb: ((backup_restore_persistent_disk_size))
   clock_global:
     instance_type:
       id: ((clock_global_instance_type))

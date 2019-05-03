@@ -1,5 +1,6 @@
 backup_restore_instance_type: automatic
 backup_restore_instances: automatic
+backup_restore_persistent_disk_size: automatic
 clock_global_instance_type: automatic
 clock_global_instances: automatic
 cloud_controller_instance_type: automatic
